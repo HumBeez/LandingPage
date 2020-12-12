@@ -1,0 +1,76 @@
+Homepage:(Admin/User common)
+    Components:
+        -Navbar (Common)
+        -Carousel (Clickable items that redirect to appropriate product pages)
+        -Cards (some cards with featured items)
+        -Catalog (Catalog with searching and filtering)
+        -Contact Us (data gathering)
+        -About Us (company info)
+        -Footer (address & links)
+
+Inquiry Page:(Admin/User common)
+    Components:
+        -Navbar (Common)
+        -Catalog (same Catalog but with Inquiry option)
+        -Input fields for personal data(name, email[optional], phone number) & product info (name of product, color, brand, quantity)
+        -Contact us pop-up
+        -Footer(Common)
+
+Catalog Page:(Admin/User common)
+    Components:
+        -Navbar(Common)
+        -Prefilled Catalog with featured items
+        -searching options(name, color, watt)
+        -filtering options(type, color, watt, shape, branding)
+        -Inquiry option[debatable]
+        -Footer(Common)
+       
+Product Page:(Admin/User common)
+    -Navbar(Common)
+    -Product Details of 1 product (Image, name, Description, type, shape, color, brand, Availability)
+    -Inquiry option to User
+    -Footer(Common)
+
+Admin Panel / Dashboard:(only Admin)
+    -Navbar(admin navbar)
+    -Cards of Admin functions(Inquiries, Product Listing, customer data, etc.)
+    -Footer(Common)
+
+Inquiries Panel:(only Admin)
+    -Navbar(admin navbar)
+    -Inquiries table with searching & and sorting
+    -searching by product name, color, type, brand, quantity, customer name, email, phone number
+    -sorting by date
+
+Product Listing Panel:(only Admin)
+
+    -Navbar(admin navbar)
+    -Manage Product Cards (Add product, delete product, update product, view Catalog)
+        -Add Product:
+            >Image (file)
+            >Name (field)
+            >Type (dropdown)
+            >Color (dropdown)
+            >Shape (dropdown)
+            >Brand (dropdown)
+            >Description (field)
+            >Availability Status (radio button)
+            >After adding options(Add More / View Product)
+
+        -Delete Product:
+            >Open Catalog with searching & filtering options
+            >Delete option on product cards.
+            >Confirmation pop-up
+            >Done button & bottom(takes back to Catalog)
+        
+        -Update product:
+            >Open Catalog with searching & filtering options
+            >Product page opens when selecting a product
+            >Fields are open for Editing
+            >Update / Cancel button at bottom(takes back to Catalog)
+
+        -View Catalog:
+            >Open Catalog from user perspective
+            >same searching & filtering options
+    -Footer(Common)
+
