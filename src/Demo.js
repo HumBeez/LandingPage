@@ -22,7 +22,7 @@ function Demof() {
                 <Navbar.Brand href="#home">Humbeez</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
+                    <Nav.Link href="#features">Features.</Nav.Link>
                     <Nav.Link href="#pricing">Pricing</Nav.Link>
                 </Nav>
                 <Form inline>
